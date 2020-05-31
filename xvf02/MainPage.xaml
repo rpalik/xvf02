@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="xvf02.MainPage"
+             Title="Tutorial App">
+
+    <StackLayout
+        Padding="5,5,5,5">
+        <!-- Place new controls here -->
+        <Entry x:Name="MainEntry" />
+
+        <Button Clicked="Button_Clicked"
+                Text="Say Hello!"
+                BackgroundColor="Blue"
+                TextColor="White"/>
+
+        <Label x:Name="MainLabel"
+               FontSize="Medium"
+               Padding="0,20,0,0"/>
+        <Button x:Name="NextPage"
+                Clicked="NextPage_Clicked"
+                Text="Next Page" />
+    </StackLayout>
+
+</ContentPage>
